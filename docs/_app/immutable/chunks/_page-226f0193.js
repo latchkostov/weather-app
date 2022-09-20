@@ -1,0 +1,1 @@
+function t(){let e="";const o=new Date().getHours();switch(!0){case(o>=0&&o<12):e="Good Morning";break;case(o>=12&&o<18):e="Good Afternoon";break;default:e="Good Evening";break}return{title:e,content:"hahaha"}}const a=Object.freeze(Object.defineProperty({__proto__:null,load:t},Symbol.toStringTag,{value:"Module"}));export{a as _,t as l};
