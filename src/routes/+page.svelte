@@ -2,7 +2,6 @@
 	import DayCard from '../lib/DayCard.svelte';
 	/** @type {import('./$types').PageData} */
 	export let data;
-	export const prerender = true;
 </script>
 
 <div class="w-full h-screen flex flex-col">
